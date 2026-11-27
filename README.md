@@ -174,7 +174,3 @@ To test from the Fastn Test tab, use a fresh `response_id` each run. A reused ID
 - If OpenAI is down, fallback keys may not match keys created by the AI step, so a report may not merge with earlier ones.
 - The Telegram recipient must press Start on the bot first.
 - This is not an emergency system. Emergencies go to campus security.
-
-## Secrets
-
-Do not commit the Telegram token, chat ID, webhook URL or webhook access key. The Fastn environment configuration holds the first two. The webhook key belongs only in the Apps Script, never in the repository.
